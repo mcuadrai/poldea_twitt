@@ -1,0 +1,79 @@
+name: tt
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  cached_network_image: ^2.2.0+1
+  provider:
+  firebase_auth: 0.18.3
+  firebase_database: 4.3.0
+  firebase_analytics: 6.2.0
+  cloud_firestore: 0.14.3
+  firebase_storage: 5.0.1
+  uuid: ^2.0.0
+  intl: ^0.16.1
+  http:
+  google_sign_in: 4.5.6
+  image_picker: ^0.6.2
+  package_info: ^0.4.1
+  shared_preferences: ^0.5.1+2
+  firebase_messaging: ^7.0.3
+  url_launcher:
+  #share: ^0.6.5+4
+  google_fonts: ^1.1.1
+ #firebase_remote_config: ^0.4.1
+  firebase_core: ^0.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/images/icon-400.png"
+  image_path_android: "assets/images/icon-400.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/icon-48.png
+    - assets/images/icon-480.png
+    - assets/images/icon-400.png
+    - assets/images/qr.png
+    - assets/images/bulb.png
+    - assets/images/google_logo.png
+
+  fonts:
+    - family: TwitterIcon
+      fonts:
+        - asset: assets/fonts/icons.ttf
+    - family: HelveticaNeue
+      fonts:
+        - asset: assets/fonts/HelveticaNeue.ttf
+        - asset: assets/fonts/HelveticaNeue400.ttf
+          weight: 400
+        - asset: assets/fonts/HelveticaNeue500.ttf
+          weight: 500
+        - asset: assets/fonts/HelveticaNeue600.ttf
+          weight: 600
+        - asset: assets/fonts/HelveticaNeue700.ttf
+          weight: 700
+        - asset: assets/fonts/HelveticaNeue800.ttf
+          weight: 800
+        - asset: assets/fonts/HelveticaNeue900.ttf
+          weight: 900
+        - asset: assets/fonts/HelveticaNeueIt.ttf
+          style: italic
