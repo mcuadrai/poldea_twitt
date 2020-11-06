@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/constant.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/model/user.dart';
-import 'package:tt/state/authState.dart';
-import 'package:tt/widgets/customWidgets.dart';
-import 'package:tt/widgets/newWidget/customUrlText.dart';
-import 'package:tt/widgets/newWidget/rippleButton.dart';
-import 'package:tt/widgets/newWidget/title_text.dart';
+import 'package:poldea_twitt/helper/constant.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/model/user.dart';
+import 'package:poldea_twitt/state/authState.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/widgets/newWidget/customUrlText.dart';
+import 'package:poldea_twitt/widgets/newWidget/rippleButton.dart';
+import 'package:poldea_twitt/widgets/newWidget/title_text.dart';
 import 'package:provider/provider.dart';
 
 class UserListWidget extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:tt/model/user.dart';
+import 'package:poldea_twitt/model/user.dart';
 
 class FeedModel {
   String key;

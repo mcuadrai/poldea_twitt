@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/constant.dart';
-import 'package:tt/page/common/usersListPage.dart';
-import 'package:tt/state/authState.dart';
+import 'package:poldea_twitt/helper/constant.dart';
+import 'package:poldea_twitt/page/common/usersListPage.dart';
+import 'package:poldea_twitt/state/authState.dart';
 import 'package:provider/provider.dart';
 
 class FollowingListPage extends StatelessWidget {

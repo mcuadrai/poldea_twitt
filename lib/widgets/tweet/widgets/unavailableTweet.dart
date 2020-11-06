@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/enum.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/model/feedModel.dart';
+import 'package:poldea_twitt/helper/enum.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/model/feedModel.dart';
 
 class UnavailableTweet extends StatelessWidget {
   const UnavailableTweet({Key key, this.snapshot, this.type}) : super(key: key);

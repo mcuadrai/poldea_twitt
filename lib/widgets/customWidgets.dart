@@ -4,8 +4,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:tt/helper/constant.dart';
-import 'package:tt/helper/theme.dart';
+import 'package:poldea_twitt/helper/constant.dart';
+import 'package:poldea_twitt/helper/theme.dart';
 import 'package:image_picker/image_picker.dart';
 
 Widget customTitleText(String title, {BuildContext context}) {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
 
 class SettingsAppBar extends StatelessWidget implements PreferredSizeWidget {
   SettingsAppBar({Key key, this.title, this.subtitle}) : super(key: key);

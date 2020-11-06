@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/constant.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/helper/utility.dart';
-import 'package:tt/model/feedModel.dart';
-import 'package:tt/model/notificationModel.dart';
-import 'package:tt/model/user.dart';
-import 'package:tt/state/authState.dart';
-import 'package:tt/state/feedState.dart';
-import 'package:tt/state/notificationState.dart';
-import 'package:tt/widgets/customAppBar.dart';
-import 'package:tt/widgets/customWidgets.dart';
-import 'package:tt/widgets/newWidget/customUrlText.dart';
-import 'package:tt/widgets/newWidget/emptyList.dart';
-import 'package:tt/widgets/newWidget/title_text.dart';
+import 'package:poldea_twitt/helper/constant.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/helper/utility.dart';
+import 'package:poldea_twitt/model/feedModel.dart';
+import 'package:poldea_twitt/model/notificationModel.dart';
+import 'package:poldea_twitt/model/user.dart';
+import 'package:poldea_twitt/state/authState.dart';
+import 'package:poldea_twitt/state/feedState.dart';
+import 'package:poldea_twitt/state/notificationState.dart';
+import 'package:poldea_twitt/widgets/customAppBar.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/widgets/newWidget/customUrlText.dart';
+import 'package:poldea_twitt/widgets/newWidget/emptyList.dart';
+import 'package:poldea_twitt/widgets/newWidget/title_text.dart';
 import 'package:provider/provider.dart';
 
 class NotificationPage extends StatefulWidget {

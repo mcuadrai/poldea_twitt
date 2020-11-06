@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/widgets/newWidget/title_text.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/widgets/newWidget/title_text.dart';
 import '../customWidgets.dart';
 
 class EmptyList extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/state/searchState.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/state/searchState.dart';
 import 'helper/routes.dart';
 import 'state/appState.dart';
 import 'package:provider/provider.dart';

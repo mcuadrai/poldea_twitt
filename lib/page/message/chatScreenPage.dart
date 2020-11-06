@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/model/chatModel.dart';
-import 'package:tt/helper/utility.dart';
-import 'package:tt/model/user.dart';
-import 'package:tt/state/authState.dart';
-import 'package:tt/state/chats/chatState.dart';
-import 'package:tt/widgets/customWidgets.dart';
-import 'package:tt/widgets/newWidget/customUrlText.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/model/chatModel.dart';
+import 'package:poldea_twitt/helper/utility.dart';
+import 'package:poldea_twitt/model/user.dart';
+import 'package:poldea_twitt/state/authState.dart';
+import 'package:poldea_twitt/state/chats/chatState.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/widgets/newWidget/customUrlText.dart';
 import 'package:provider/provider.dart';
 
 class ChatScreenPage extends StatefulWidget {

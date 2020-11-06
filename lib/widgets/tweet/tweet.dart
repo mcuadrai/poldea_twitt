@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:tt/helper/constant.dart';
-import 'package:tt/helper/enum.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/helper/utility.dart';
-import 'package:tt/model/feedModel.dart';
-import 'package:tt/state/feedState.dart';
-import 'package:tt/widgets/newWidget/customUrlText.dart';
-import 'package:tt/widgets/newWidget/title_text.dart';
-import 'package:tt/widgets/tweet/widgets/parentTweet.dart';
-import 'package:tt/widgets/tweet/widgets/tweetIconsRow.dart';
+import 'package:poldea_twitt/helper/constant.dart';
+import 'package:poldea_twitt/helper/enum.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/helper/utility.dart';
+import 'package:poldea_twitt/model/feedModel.dart';
+import 'package:poldea_twitt/state/feedState.dart';
+import 'package:poldea_twitt/widgets/newWidget/customUrlText.dart';
+import 'package:poldea_twitt/widgets/newWidget/title_text.dart';
+import 'package:poldea_twitt/widgets/tweet/widgets/parentTweet.dart';
+import 'package:poldea_twitt/widgets/tweet/widgets/tweetIconsRow.dart';
 import 'package:provider/provider.dart';
 
 import '../customWidgets.dart';

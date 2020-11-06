@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/constant.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/model/user.dart';
-import 'package:tt/page/settings/widgets/headerWidget.dart';
-import 'package:tt/page/settings/widgets/settingsAppbar.dart';
-import 'package:tt/page/settings/widgets/settingsRowWidget.dart';
-import 'package:tt/state/authState.dart';
-import 'package:tt/state/chats/chatState.dart';
-import 'package:tt/widgets/customAppBar.dart';
-import 'package:tt/widgets/customWidgets.dart';
-import 'package:tt/widgets/newWidget/customUrlText.dart';
-import 'package:tt/widgets/newWidget/rippleButton.dart';
+import 'package:poldea_twitt/helper/constant.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/model/user.dart';
+import 'package:poldea_twitt/page/settings/widgets/headerWidget.dart';
+import 'package:poldea_twitt/page/settings/widgets/settingsAppbar.dart';
+import 'package:poldea_twitt/page/settings/widgets/settingsRowWidget.dart';
+import 'package:poldea_twitt/state/authState.dart';
+import 'package:poldea_twitt/state/chats/chatState.dart';
+import 'package:poldea_twitt/widgets/customAppBar.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/widgets/newWidget/customUrlText.dart';
+import 'package:poldea_twitt/widgets/newWidget/rippleButton.dart';
 import 'package:provider/provider.dart';
 
 class ConversationInformation extends StatelessWidget {

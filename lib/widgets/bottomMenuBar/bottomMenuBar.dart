@@ -1,10 +1,10 @@
 // import 'package:fancy_bottom_navigation/internal/tab_item.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tt/helper/constant.dart';
-import 'package:tt/state/appState.dart';
-import 'package:tt/state/authState.dart';
-import 'package:tt/widgets/bottomMenuBar/tabItem.dart';
+import 'package:poldea_twitt/helper/constant.dart';
+import 'package:poldea_twitt/state/appState.dart';
+import 'package:poldea_twitt/state/authState.dart';
+import 'package:poldea_twitt/widgets/bottomMenuBar/tabItem.dart';
 import 'package:provider/provider.dart';
 import '../customWidgets.dart';
 // import 'customBottomNavigationBar.dart';

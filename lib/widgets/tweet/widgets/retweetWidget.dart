@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/constant.dart';
-import 'package:tt/helper/enum.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/helper/utility.dart';
-import 'package:tt/model/feedModel.dart';
-import 'package:tt/state/feedState.dart';
-import 'package:tt/widgets/customWidgets.dart';
-import 'package:tt/widgets/newWidget/customUrlText.dart';
-import 'package:tt/widgets/newWidget/rippleButton.dart';
-import 'package:tt/widgets/newWidget/title_text.dart';
-import 'package:tt/widgets/tweet/widgets/tweetImage.dart';
-import 'package:tt/widgets/tweet/widgets/unavailableTweet.dart';
+import 'package:poldea_twitt/helper/constant.dart';
+import 'package:poldea_twitt/helper/enum.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/helper/utility.dart';
+import 'package:poldea_twitt/model/feedModel.dart';
+import 'package:poldea_twitt/state/feedState.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/widgets/newWidget/customUrlText.dart';
+import 'package:poldea_twitt/widgets/newWidget/rippleButton.dart';
+import 'package:poldea_twitt/widgets/newWidget/title_text.dart';
+import 'package:poldea_twitt/widgets/tweet/widgets/tweetImage.dart';
+import 'package:poldea_twitt/widgets/tweet/widgets/unavailableTweet.dart';
 import 'package:provider/provider.dart';
 
 class RetweetWidget extends StatelessWidget {

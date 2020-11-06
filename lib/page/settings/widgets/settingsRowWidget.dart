@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/widgets/newWidget/customCheckBox.dart';
-import 'package:tt/widgets/newWidget/customUrlText.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/widgets/newWidget/customCheckBox.dart';
+import 'package:poldea_twitt/widgets/newWidget/customUrlText.dart';
 import 'package:provider/provider.dart';
 
 class SettingRowWidget extends StatelessWidget {

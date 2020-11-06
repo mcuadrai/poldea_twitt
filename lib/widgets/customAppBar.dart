@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/state/authState.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/state/authState.dart';
 import 'package:provider/provider.dart';
 
 import 'customWidgets.dart';

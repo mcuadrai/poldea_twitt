@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:tt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
 
 class ComposeTweetImage extends StatelessWidget {
   final File image;

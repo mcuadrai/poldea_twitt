@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/utility.dart';
-import 'package:tt/state/authState.dart';
-import 'package:tt/widgets/newWidget/customLoader.dart';
-import 'package:tt/widgets/newWidget/rippleButton.dart';
-import 'package:tt/widgets/newWidget/title_text.dart';
+import 'package:poldea_twitt/helper/utility.dart';
+import 'package:poldea_twitt/state/authState.dart';
+import 'package:poldea_twitt/widgets/newWidget/customLoader.dart';
+import 'package:poldea_twitt/widgets/newWidget/rippleButton.dart';
+import 'package:poldea_twitt/widgets/newWidget/title_text.dart';
 import 'package:provider/provider.dart';
 
 class GoogleLoginButton extends StatelessWidget {

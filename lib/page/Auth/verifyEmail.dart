@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/state/authState.dart';
-import 'package:tt/widgets/customWidgets.dart';
-import 'package:tt/widgets/newWidget/emptyList.dart';
-import 'package:tt/widgets/newWidget/title_text.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/state/authState.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/widgets/newWidget/emptyList.dart';
+import 'package:poldea_twitt/widgets/newWidget/title_text.dart';
 import 'package:provider/provider.dart';
 
 class VerifyEmailPage extends StatefulWidget {

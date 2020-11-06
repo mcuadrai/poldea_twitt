@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/enum.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/page/settings/widgets/settingsRowWidget.dart';
-import 'package:tt/state/searchState.dart';
-import 'package:tt/widgets/customAppBar.dart';
-import 'package:tt/widgets/customWidgets.dart';
-import 'package:tt/widgets/newWidget/title_text.dart';
+import 'package:poldea_twitt/helper/enum.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/page/settings/widgets/settingsRowWidget.dart';
+import 'package:poldea_twitt/state/searchState.dart';
+import 'package:poldea_twitt/widgets/customAppBar.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/widgets/newWidget/title_text.dart';
 import 'package:provider/provider.dart';
 
 class TrendsPage extends StatelessWidget {

@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tt/helper/enum.dart';
-import 'package:tt/model/feedModel.dart';
-import 'package:tt/helper/theme.dart';
-import 'package:tt/state/authState.dart';
-import 'package:tt/state/feedState.dart';
-import 'package:tt/widgets/customWidgets.dart';
-import 'package:tt/widgets/tweet/tweet.dart';
-import 'package:tt/widgets/tweet/widgets/tweetBottomSheet.dart';
+import 'package:poldea_twitt/helper/enum.dart';
+import 'package:poldea_twitt/model/feedModel.dart';
+import 'package:poldea_twitt/helper/theme.dart';
+import 'package:poldea_twitt/state/authState.dart';
+import 'package:poldea_twitt/state/feedState.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/widgets/tweet/tweet.dart';
+import 'package:poldea_twitt/widgets/tweet/widgets/tweetBottomSheet.dart';
 import 'package:provider/provider.dart';
 
 class FeedPostDetail extends StatefulWidget {

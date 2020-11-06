@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tt/helper/constant.dart';
-import 'package:tt/helper/utility.dart';
-import 'package:tt/model/feedModel.dart';
-import 'package:tt/model/user.dart';
-import 'package:tt/state/authState.dart';
-import 'package:tt/state/feedState.dart';
-import 'package:tt/widgets/customWidgets.dart';
-import 'package:tt/widgets/tweet/widgets/tweetIconsRow.dart';
+import 'package:poldea_twitt/helper/constant.dart';
+import 'package:poldea_twitt/helper/utility.dart';
+import 'package:poldea_twitt/model/feedModel.dart';
+import 'package:poldea_twitt/model/user.dart';
+import 'package:poldea_twitt/state/authState.dart';
+import 'package:poldea_twitt/state/feedState.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/widgets/tweet/widgets/tweetIconsRow.dart';
 import 'package:provider/provider.dart';
 
 class ImageViewPge extends StatefulWidget {

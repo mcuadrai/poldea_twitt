@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
 
 class CustomLoader {
   static CustomLoader _customLoader;

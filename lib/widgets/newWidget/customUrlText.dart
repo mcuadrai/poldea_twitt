@@ -1,6 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:tt/helper/utility.dart';
+import 'package:poldea_twitt/helper/utility.dart';
 
 class UrlText extends StatelessWidget {
   final String text;

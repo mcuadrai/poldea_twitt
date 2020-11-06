@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:tt/helper/utility.dart';
-import 'package:tt/state/authState.dart';
-import 'package:tt/widgets/customWidgets.dart';
+import 'package:poldea_twitt/helper/utility.dart';
+import 'package:poldea_twitt/state/authState.dart';
+import 'package:poldea_twitt/widgets/customWidgets.dart';
 import 'package:provider/provider.dart';
 
 class EditProfilePage extends StatefulWidget {

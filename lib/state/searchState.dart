@@ -1,7 +1,7 @@
 import 'package:firebase_database/firebase_database.dart';
-import 'package:tt/helper/enum.dart';
-import 'package:tt/helper/utility.dart';
-import 'package:tt/model/user.dart';
+import 'package:poldea_twitt/helper/enum.dart';
+import 'package:poldea_twitt/helper/utility.dart';
+import 'package:poldea_twitt/model/user.dart';
 import 'appState.dart';
 
 class SearchState extends AppState {

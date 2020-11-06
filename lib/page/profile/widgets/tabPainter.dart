@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tt/helper/theme.dart';
+import 'package:poldea_twitt/helper/theme.dart';
 
 class TabIndicator extends Decoration {
   final BoxPainter _painter;
