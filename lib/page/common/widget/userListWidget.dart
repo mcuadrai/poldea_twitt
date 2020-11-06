@@ -4,7 +4,6 @@ import 'package:poldea_twitt/helper/theme.dart';
 import 'package:poldea_twitt/model/user.dart';
 import 'package:poldea_twitt/state/authState.dart';
 import 'package:poldea_twitt/widgets/customWidgets.dart';
-import 'package:poldea_twitt/widgets/newWidget/customUrlText.dart';
 import 'package:poldea_twitt/widgets/newWidget/rippleButton.dart';
 import 'package:poldea_twitt/widgets/newWidget/title_text.dart';
 import 'package:provider/provider.dart';

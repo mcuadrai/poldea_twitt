@@ -1,9 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
+
 //import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:package_info/package_info.dart';
 import 'package:poldea_twitt/helper/enum.dart';
 import 'package:poldea_twitt/helper/theme.dart';
 import 'package:poldea_twitt/helper/utility.dart';
@@ -12,7 +14,6 @@ import 'package:poldea_twitt/page/common/updateApp.dart';
 import 'package:poldea_twitt/page/homePage.dart';
 import 'package:poldea_twitt/state/authState.dart';
 import 'package:poldea_twitt/widgets/customWidgets.dart';
-import 'package:package_info/package_info.dart';
 import 'package:provider/provider.dart';
 
 class SplashPage extends StatefulWidget {

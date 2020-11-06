@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:poldea_twitt/helper/theme.dart';
-import 'package:poldea_twitt/model/chatModel.dart';
 import 'package:poldea_twitt/helper/utility.dart';
+import 'package:poldea_twitt/model/chatModel.dart';
 import 'package:poldea_twitt/model/user.dart';
 import 'package:poldea_twitt/state/authState.dart';
 import 'package:poldea_twitt/state/chats/chatState.dart';

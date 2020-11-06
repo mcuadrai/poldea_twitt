@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:poldea_twitt/helper/theme.dart';
-import 'package:poldea_twitt/page/settings/widgets/headerWidget.dart';
 import 'package:poldea_twitt/page/settings/widgets/settingsRowWidget.dart';
 import 'package:poldea_twitt/widgets/customAppBar.dart';
 import 'package:poldea_twitt/widgets/customWidgets.dart';
-import 'package:poldea_twitt/widgets/newWidget/title_text.dart';
 
 class ProxyPage extends StatelessWidget {
   const ProxyPage({Key key}) : super(key: key);

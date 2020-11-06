@@ -2,18 +2,18 @@ import 'dart:io';
 
 import 'package:firebase_auth/firebase_auth.dart' hide User;
 import 'package:firebase_database/firebase_database.dart';
+import 'package:firebase_database/firebase_database.dart' as dabase;
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:path/path.dart' as Path;
 import 'package:poldea_twitt/helper/enum.dart';
 import 'package:poldea_twitt/helper/utility.dart';
 import 'package:poldea_twitt/model/user.dart';
 import 'package:poldea_twitt/widgets/customWidgets.dart';
-import 'package:google_sign_in/google_sign_in.dart';
-import 'package:path/path.dart' as Path;
+
 import 'appState.dart';
-import 'package:firebase_database/firebase_database.dart' as dabase;
 
 class AuthState extends AppState {
   AuthStatus authStatus = AuthStatus.NOT_DETERMINED;

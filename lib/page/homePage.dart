@@ -11,6 +11,7 @@ import 'package:poldea_twitt/state/notificationState.dart';
 import 'package:poldea_twitt/state/searchState.dart';
 import 'package:poldea_twitt/widgets/bottomMenuBar/bottomMenuBar.dart';
 import 'package:provider/provider.dart';
+
 import 'common/sidebar.dart';
 import 'notification/notificationPage.dart';
 import 'search/SearchPage.dart';

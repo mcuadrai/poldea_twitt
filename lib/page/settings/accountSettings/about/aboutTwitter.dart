@@ -5,7 +5,6 @@ import 'package:poldea_twitt/page/settings/widgets/headerWidget.dart';
 import 'package:poldea_twitt/page/settings/widgets/settingsRowWidget.dart';
 import 'package:poldea_twitt/widgets/customAppBar.dart';
 import 'package:poldea_twitt/widgets/customWidgets.dart';
-import 'package:poldea_twitt/widgets/newWidget/title_text.dart';
 
 class AboutPage extends StatelessWidget {
   const AboutPage({Key key}) : super(key: key);

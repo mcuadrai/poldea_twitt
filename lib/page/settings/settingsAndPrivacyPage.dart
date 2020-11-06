@@ -5,8 +5,8 @@ import 'package:poldea_twitt/page/settings/widgets/headerWidget.dart';
 import 'package:poldea_twitt/state/authState.dart';
 import 'package:poldea_twitt/widgets/customAppBar.dart';
 import 'package:poldea_twitt/widgets/customWidgets.dart';
-import 'package:poldea_twitt/widgets/newWidget/customUrlText.dart';
 import 'package:provider/provider.dart';
+
 import 'widgets/settingsRowWidget.dart';
 
 class SettingsAndPrivacyPage extends StatelessWidget {

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:poldea_twitt/helper/theme.dart';
 import 'package:poldea_twitt/model/user.dart';
 import 'package:poldea_twitt/page/common/widget/userListWidget.dart';
-import 'package:poldea_twitt/state/authState.dart';
 import 'package:poldea_twitt/state/searchState.dart';
 import 'package:poldea_twitt/widgets/customAppBar.dart';
 import 'package:poldea_twitt/widgets/customWidgets.dart';

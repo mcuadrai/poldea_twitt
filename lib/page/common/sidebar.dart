@@ -1,4 +1,3 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:poldea_twitt/helper/constant.dart';
 import 'package:poldea_twitt/helper/theme.dart';

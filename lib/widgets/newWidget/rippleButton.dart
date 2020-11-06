@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:poldea_twitt/helper/theme.dart';
 
 class RippleButton extends StatelessWidget {
   final Widget child;

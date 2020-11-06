@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:poldea_twitt/helper/constant.dart';
 import 'package:poldea_twitt/helper/theme.dart';
-import 'package:poldea_twitt/helper/utility.dart';
 import 'package:poldea_twitt/model/feedModel.dart';
 import 'package:poldea_twitt/model/notificationModel.dart';
 import 'package:poldea_twitt/model/user.dart';

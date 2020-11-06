@@ -23,14 +23,15 @@ import 'package:poldea_twitt/page/settings/accountSettings/privacyAndSafety/priv
 import 'package:poldea_twitt/page/settings/accountSettings/proxy/proxyPage.dart';
 import 'package:poldea_twitt/page/settings/settingsAndPrivacyPage.dart';
 import 'package:provider/provider.dart';
-import '../page/Auth/signin.dart';
+
 import '../helper/customRoute.dart';
-import '../page/feed/imageViewPage.dart';
 import '../page/Auth/forgetPasswordPage.dart';
+import '../page/Auth/signin.dart';
 import '../page/Auth/signup.dart';
 import '../page/feed/feedPostDetail.dart';
-import '../page/profile/EditProfilePage.dart';
+import '../page/feed/imageViewPage.dart';
 import '../page/message/chatScreenPage.dart';
+import '../page/profile/EditProfilePage.dart';
 import '../page/profile/profilePage.dart';
 import '../widgets/customWidgets.dart';
 
