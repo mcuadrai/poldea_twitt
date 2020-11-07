@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:firebase_auth/firebase_auth.dart' hide User;
+import 'package:firebase_auth/firebase_auth.dart' as auth;
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_database/firebase_database.dart' as dabase;
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -18,10 +18,10 @@ import 'appState.dart';
 class AuthState extends AppState {
   AuthStatus authStatus = AuthStatus.NOT_DETERMINED;
   bool isSignInWithGoogle = false;
-  FirebaseUser user;
+  auth.User user;
   String userId;
   final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
-  final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
+  final auth.FirebaseAuth _firebaseAuth = auth.FirebaseAuth.instance;
   final GoogleSignIn _googleSignIn = GoogleSignIn();
   dabase.Query _profileQuery;
   List<User> _profileUserModelList;
@@ -214,7 +214,7 @@ class AuthState extends AppState {
   }
 
   /// Fetch current user profile
-  Future<FirebaseUser> getCurrentUser() async {
+  Future<auth.User> getCurrentUser() async {
     try {
       loading = true;
       logEvent('get_currentUSer');
@@ -239,7 +239,7 @@ class AuthState extends AppState {
   /// Reload user to get refresh user data
   reloadUser() async {
     await user.reload();
-    user = await _firebaseAuth.currentUser;
+    user =  _firebaseAuth.currentUser;
     if (user.emailVerified) {
       userModel.isVerified = true;
       // If user verifed his email
@@ -254,7 +254,7 @@ class AuthState extends AppState {
   /// Send email verification link to email2
   Future<void> sendEmailVerification(
       GlobalKey<ScaffoldState> scaffoldKey) async {
-    FirebaseUser user = _firebaseAuth.currentUser;
+    auth.User user =  _firebaseAuth.currentUser;
     user.sendEmailVerification().then((_) {
       logEvent('email_verifcation_sent',
           parameter: {userModel.displayName: user.email});
@@ -275,7 +275,7 @@ class AuthState extends AppState {
 
   /// Check if user's email is verified
   Future<bool> isEmailVerified() async {
-    FirebaseUser user = await _firebaseAuth.currentUser;
+    auth.User user = _firebaseAuth.currentUser;
     return user.emailVerified;
   }
 
