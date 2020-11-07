@@ -86,7 +86,8 @@ class _HomePageState extends State<HomePage> {
   void _checkNotification() {
     final authstate = Provider.of<AuthState>(context, listen: false);
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      var state = Provider.of<NotificationState>(context);
+      //mcuadrai var state = Provider.of<NotificationState>(context);
+      var state = Provider.of<NotificationState>(context, listen: false);
 
       /// Check if user recieve chat notification from firebase
       /// Redirect to chat screen
