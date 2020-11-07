@@ -88,7 +88,8 @@ class AuthState extends AppState {
       loading = false;
       cprint(error, errorIn: 'signIn');
       kAnalytics.logLogin(loginMethod: 'email_login');
-      customSnackBar(scaffoldKey, error.message);
+      //mcuadrai estaba customSnackBar(scaffoldKey, error.message);
+      customSnackBar(scaffoldKey, "Msg:"+error.toString());
       // logoutCallback();
       return null;
     }
