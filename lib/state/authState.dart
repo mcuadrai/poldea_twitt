@@ -6,6 +6,7 @@ import 'package:firebase_database/firebase_database.dart' as dabase;
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:path/path.dart' as Path;
 import 'package:poldea_twitt/helper/enum.dart';
@@ -98,7 +99,7 @@ class AuthState extends AppState {
   /// Create user from `google login`
   /// If user is new then it create a new user
   /// If user is old then it just `authenticate` user and return firebase user data
-  /* Future<FirebaseUser> handleGoogleSignIn() async {
+  Future<auth.User> handleGoogleSignIn() async {
     try {
       /// Record log in firebase kAnalytics about Google login
       kAnalytics.logLogin(loginMethod: 'google_login');
@@ -109,7 +110,7 @@ class AuthState extends AppState {
       final GoogleSignInAuthentication googleAuth =
           await googleUser.authentication;
 
-      final AuthCredential credential = GoogleAuthProvider.getCredential(
+      final auth.AuthCredential credential = auth.GoogleAuthProvider.credential(
         accessToken: googleAuth.accessToken,
         idToken: googleAuth.idToken,
       );
@@ -139,7 +140,7 @@ class AuthState extends AppState {
   }
 
   /// Create user profile from google login
-  createUserFromGoogleSignIn(FirebaseUser user) {
+  createUserFromGoogleSignIn(auth.User user) {
     var diff = DateTime.now().difference(user.metadata.creationTime);
     // Check if user is new or old
     // If user is new then add new user to firebase realtime kDatabase
@@ -149,19 +150,19 @@ class AuthState extends AppState {
         dob: DateTime(1950, DateTime.now().month, DateTime.now().day + 3)
             .toString(),
         location: 'Somewhere in universe',
-        profilePic: user.photoUrl,
+        profilePic: user.photoURL,
         displayName: user.displayName,
         email: user.email,
         key: user.uid,
         userId: user.uid,
         contact: user.phoneNumber,
-        isVerified: user.isEmailVerified,
+        isVerified: user.emailVerified,
       );
       createUser(model, newUser: true);
     } else {
       cprint('Last login at: ${user.metadata.lastSignInTime}');
     }
-  } */
+  }
 
   /// Create new user's profile in db
   Future<String> signUp(User userModel,
@@ -178,7 +179,8 @@ class AuthState extends AppState {
       /* UserUpdateInfo updateInfo = UserUpdateInfo();
       updateInfo.displayName = userModel.displayName;
       updateInfo.photoUrl = userModel.profilePic; */
-      await result.user.updateProfile(displayName: 'nadie');
+      await result.user.updateProfile(displayName:userModel.displayName, photoURL:  userModel.profilePic );
+      //await result.user.updateProfile(displayName: 'nadie');
       _userModel = userModel;
       _userModel.key = user.uid;
       _userModel.userId = user.uid;
@@ -313,7 +315,8 @@ class AuthState extends AppState {
             /* UserUpdateInfo updateInfo = UserUpdateInfo();
             updateInfo.displayName = userModel?.displayName ?? user.displayName;
             updateInfo.photoUrl = fileURL; */
-            await user.updateProfile(displayName: 'nadie');
+            await user.updateProfile(displayName:userModel?.displayName??user.displayName, photoURL: fileURL);
+            //await user.updateProfile(displayName: 'nadie');
             if (userModel != null) {
               userModel.profilePic = fileURL;
               createUser(userModel);

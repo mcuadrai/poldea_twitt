@@ -12,9 +12,8 @@ import 'state/chats/chatState.dart';
 import 'state/feedState.dart';
 import 'state/notificationState.dart';
 
-void main() async {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   await Firebase.initializeApp();
   runApp(MyApp());
 }

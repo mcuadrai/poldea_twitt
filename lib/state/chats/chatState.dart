@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:http/http.dart' as http;
 //import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:poldea_twitt/helper/enum.dart';
@@ -68,14 +69,14 @@ class ChatState extends AppState {
     }
   }
 
-  /// Fecth FCM server key from firebase Remote config
+  /// Fetch FCM server key from firebase Remote config
   /// FCM server key is stored in firebase remote config
   /// you have to add server key in firebase remote config
   /// To fetch this key go to project setting in firebase
   /// Click on `cloud messaging` tab
   /// Copy server key from `Project credentials`
-  /// Now goto `Remote Congig` section in fireabse
-  /// Add [FcmServerKey]  as paramerter key and below json in Default vslue
+  /// Now goto `Remote Config` section in firebase
+  /// Add [FcmServerKey]  as parameter key and below json in Default value
   ///  ``` json
   ///  {
   ///    "key": "FCM server key here"
@@ -83,7 +84,7 @@ class ChatState extends AppState {
   /// For more detail visit:- https://github.com/TheAlphamerc/tt/issues/28#issue-611695533
   /// For package detail check:-  https://pub.dev/packages/firebase_remote_config#-readme-tab-
   void getFCMServerKey() async {
-    /* final RemoteConfig remoteConfig = await RemoteConfig.instance;
+    final RemoteConfig remoteConfig = await RemoteConfig.instance;
     await remoteConfig.fetch(expiration: const Duration(days: 5));
     await remoteConfig.activateFetched();
     var data = remoteConfig.getString('FcmServerKey');
@@ -92,7 +93,7 @@ class ChatState extends AppState {
     } else {
       cprint("Please configure Remote config in firebase",
           errorIn: "getFCMServerKey");
-    } */
+    } 
   }
 
   /// Fetch users list to who have ever engaged in chat message with logged-in user

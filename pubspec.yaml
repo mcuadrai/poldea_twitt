@@ -31,7 +31,7 @@ dependencies:
   url_launcher:
   #share: ^0.6.5+4
   google_fonts: ^1.1.1
- #firebase_remote_config: ^0.4.1
+  #firebase_remote_config: ^0.4.2
   firebase_core: ^0.5.2
 
 dev_dependencies:
